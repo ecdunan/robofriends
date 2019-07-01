@@ -1,8 +1,9 @@
 import React from 'react';
+import './SearchBox.css'
 
 function SearchBox(props) {
     return (
-            <input className='bg-blue tc pa2 ma3 br3'
+            <input className='bg-light-blue tc pa2 ma3 br3'
             type='searchbox'
             placeholder='Search Robots'
             onChange = {props.onSearchChange}/>
